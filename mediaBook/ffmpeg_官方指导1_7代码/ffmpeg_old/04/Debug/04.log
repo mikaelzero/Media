@@ -1,0 +1,33 @@
+﻿生成启动时间为 2015/11/19 16:09:00。
+     1>项目“E:\yzq_tools\ffmpeg\ffmpeg_old\04\04.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Debug\04.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“Debug\04.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt 04.cpp
+         04.cpp
+     1>e:\yzq_tools\ffmpeg\ffmpeg_old\04\04.cpp(285): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>e:\yzq_tools\ffmpeg\ffmpeg_old\04\04.cpp(488): warning C4018: “>=”: 有符号/无符号不匹配
+     1>e:\yzq_tools\ffmpeg\ffmpeg_old\04\04.cpp(598): warning C4018: “<”: 有符号/无符号不匹配
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\04.exe.embed.manifest.res" Debug\04_manifest.rc 
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\yzq_tools\ffmpeg\ffmpeg_old\Debug\04.exe" /INCREMENTAL /NOLOGO /LIBPATH:../lib avcodec.lib avdevice.lib avfilter.lib avformat.lib avutil.lib swresample.lib swscale.lib SDL.lib SDLmain.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:msvcrt.lib /MANIFEST /ManifestFile:"Debug\04.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\yzq_tools\ffmpeg\ffmpeg_old\Debug\04.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\yzq_tools\ffmpeg\ffmpeg_old\Debug\04.lib" /MACHINE:X86 Debug\04.exe.embed.manifest.res
+         Debug\04.obj
+       Manifest:
+         正在删除文件“Debug\04.exe.embed.manifest”。
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\04.exe.embed.manifest" /manifest Debug\04.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\04.exe.embed.manifest.res" Debug\04_manifest.rc 
+       LinkEmbedManifest:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\yzq_tools\ffmpeg\ffmpeg_old\Debug\04.exe" /INCREMENTAL /NOLOGO /LIBPATH:../lib avcodec.lib avdevice.lib avfilter.lib avformat.lib avutil.lib swresample.lib swscale.lib SDL.lib SDLmain.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:msvcrt.lib /MANIFEST /ManifestFile:"Debug\04.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\yzq_tools\ffmpeg\ffmpeg_old\Debug\04.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\yzq_tools\ffmpeg\ffmpeg_old\Debug\04.lib" /MACHINE:X86 Debug\04.exe.embed.manifest.res
+         Debug\04.obj
+         04.vcxproj -> E:\yzq_tools\ffmpeg\ffmpeg_old\Debug\04.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\04.unsuccessfulbuild”。
+         正在对“Debug\04.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\yzq_tools\ffmpeg\ffmpeg_old\04\04.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.22
